@@ -1,0 +1,170 @@
+body {
+    width: 100%;
+    margin: 0%;
+    background-image: url(self-portrait.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #ffff;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(29, 16, 16);
+    opacity: 70%;
+}
+.name {
+    font-family: 'Southernsky', sans-serif;
+    margin-right: 4%;
+    font-size: 30px;
+}
+.logo {
+    width: 6%;
+    margin-right: 8%;
+}
+.menu-sections {
+    display: inline-block;
+    margin-left: 50px;
+    border-right: 1px solid #ffff;
+    padding-right: 40px;
+}
+.menu-sections:nth-child(8) {
+    border-right: none;
+}
+.phrase {
+    font-size: 70px;
+    color: #ffff;
+    font-family: 'Indie Flower', cursive, sans-serif;
+    width: 55%;
+    height: 775px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 16, 16);
+    opacity: 70%;
+}
+.gallery-tittle {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(29, 16, 16);
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.gallery {
+    border: 1px solid black;
+    width: 100%;
+    height: 1555px;
+    background-color: rgb(83, 33, 33); 
+    clear: both;
+}
+#video {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 2px solid #ffff;
+    float: left;
+}
+
+.title-main-image {
+    color: #ffff;
+    font-size: 50px;
+    width: 35%;
+    height: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 9%;
+    margin-left: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    float: left;
+}
+.date-1 {
+    color: #ffff;
+    font-size: 20px;
+    width: 35%;
+    height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+p {
+    color: #ffff;
+    width: 35%;
+    height: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    margin-left: 4%;
+    margin-top: 0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+.painting-section {
+    width: 100%;
+    column-count: 3;
+    background-color: black;
+    clear: both;
+}
+.paintings {
+    margin-left: 15%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    width: 70%;
+    border: 3px solid #ffff;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        /* Modify your menu styles for smaller screens */
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu-sections {
+        /* Adjust menu section styles for smaller screens */
+        display: block;
+        margin: 10px 0;
+        padding: 0;
+        border: none;
+    }
+
+    .name {
+        /* Adjust name styles for smaller screens */
+        margin: 0;
+        font-size: 24px;
+    }
+
+    .logo {
+        /* Adjust logo styles for smaller screens */
+        width: 20%;
+        margin: 0;
+    }
+
+    /* Add similar adjustments for other elements as needed */
+    /* Adjust your existing styles to make them responsive for smaller screens */
+    /* You might need to modify widths, margins, font sizes, etc. */
+}
